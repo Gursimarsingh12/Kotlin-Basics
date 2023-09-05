@@ -24,5 +24,5 @@ fun main(){
     box1.open()
     box1.fillContents()
     box1.color()
-box1.close()
+    box1.close()
 }

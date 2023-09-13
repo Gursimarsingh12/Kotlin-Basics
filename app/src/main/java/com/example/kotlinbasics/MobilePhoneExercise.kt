@@ -8,7 +8,7 @@ class MobilePhone constructor(osName: String, _brand: String, model: String){
         println("I have $brand $model which has $osName")
     }
     fun chargedBy(charged: Int){
-        println("$brand's Battery was at $battery and now it will be charged to $charged.")
+        println("$brand's Battery was at $battery and now it will be charged to ${battery+charged}.")
         battery += charged
     }
 }

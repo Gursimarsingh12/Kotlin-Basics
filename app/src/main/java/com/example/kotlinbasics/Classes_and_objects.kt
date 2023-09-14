@@ -6,6 +6,7 @@ class Person(firstName: String = "John", lastName: String = "Doe"){
     var hobby : String = ""
     var firstName: String =  ""
     var eyeColor: String ?= null
+//    var Person5: Person = Person("Pagal", "Meet") -----> // Error - StackOverflow
 //    If we have constructor or parameters then to print anything in class, we have to use init keyword
 //    Initializer Block
     init {

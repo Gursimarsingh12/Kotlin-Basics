@@ -21,5 +21,6 @@ fun main(){
     for(food in foodMap.keys){
         println("$food: ${foodMap[food]}")
     }
+    println("${months.getValue(1)}")
 }
 data class Food(var Name: String, var Price: Double)
